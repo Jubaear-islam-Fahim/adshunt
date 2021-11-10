@@ -1,0 +1,597 @@
+/* ============================================================
+
+ Theme Name: Monteck - Sports Club HTML Template
+ Theme URI: http://
+ Description: Monteck - Sports Club HTML Template
+ Author: Rifat
+ Author URI: http://thesoftking.com/
+ Version: 1.0 
+
+============================================================== */
+/* Large screens ----------- */
+@media only screen  and (min-width : 1920px) {
+div#topcontrol { 
+    right: 100px !important;
+    bottom: 15px !important;
+}
+
+
+} 
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+.top-submit {
+    padding: 0 25px;
+}
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+   
+.top-submit { 
+    height: 49px;
+    padding: 0 45px; 
+}
+.pricing-text .btn { 
+    padding: 8px 30px; 
+    width: auto;
+}
+.profile-text p br {
+    display: none;
+}
+.furniture-slid .owl-prev {
+    left: 0;
+}
+.furniture-slid .owl-next {
+    right: 0;
+} 
+img.about-welcome-img2 {
+    margin-right: 164px;
+    margin-top: -126px;
+}
+.Catagory-left h4 {
+    padding: 20px 15px 20px; 
+}
+.catagory-item {
+    padding: 20px 15px 0px;
+}
+.ad-listin-nav span { 
+    margin-right: 25px; 
+}
+.ad-listin-nav ul li { 
+    padding: 0 3px;
+}
+.ad-listin-nav { 
+    padding: 20px 20px;
+}
+.ad-listin-nav ul li a { 
+    font-size: 13px;
+}
+.ad-listin-img img {
+    width: 100%;
+    height: 285px;
+}  
+.featured-details .owl-prev {
+    left: 0;
+}
+.featured-details .owl-next {
+    right: 0;
+} 
+.contact-ad-item b {
+    font-size: 24px; 
+}
+.search-box button { 
+    width: 42px;
+    height: 50px; 
+}
+.category-item a { 
+    padding: 15px;  
+}
+.category-item a i {
+    padding-right: 3px;
+}
+.recent-item img {
+    margin-right: 11px;
+}
+    
+}
+
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+h1 {
+    font-size: 42px;
+}
+
+.top-input .m-lc {
+    height: 49px;
+    width: 170px; 
+    padding: 0 20px; 
+    font-size: 15px; 
+}
+.footer-item h4 { 
+    margin-top: 50px;
+}
+#copy-right { 
+    text-align: center !important;
+}
+#copy-right .text-right { 
+    text-align: center !important;
+	margin-top: 20px;
+}
+.something-text {
+    text-align: center;
+    margin-top: 30px;
+}
+.dropdown-menu li .dropdown-item {
+	font-size: 15px !important;
+	padding: 0 12px !important;
+}
+.ad-listin-nav span { 
+    margin-right: 25px; 
+}
+.ad-listin-nav ul li { 
+    padding: 0 3px;
+}
+.ad-listin-nav ul li a { 
+    font-size: 12px;
+}
+.ad-listin-img img {
+    width: 100%;
+    height: 287px;
+}
+.ad-listin-nav { 
+    margin-top: 40px;
+}
+.featured-details .owl-prev {
+    left: 0;
+}
+.featured-details .owl-next {
+    right: 0;
+}
+.blog-list-text {
+    padding: 40px;
+    margin-left: 0; 
+} 
+.blog-list-img { 
+    margin-bottom: 0;
+}
+.blog-list-item .col-lg-8 {
+	padding:0;
+}
+.serving-quality-text h2 { 
+    margin-top: 44px;
+}
+.about-welcome-img.text-right {
+    margin-top: 50px;
+}
+
+}
+
+
+
+/* Extra small Device. */
+@media (max-width: 767px) { 
+#menu-area #my-menu li a {
+	color: #fff;
+	line-height: 35px;
+	margin: 0;
+	padding: 0 14px; 
+} 
+#menu-area #my-menu {
+	background-color: #27272f; 
+}
+#menu-area #my-menu li a:hover, #menu-area #my-menu .active {
+	color: #fff;
+	background: #f99a00; }
+	
+.Marketplace-bg { 
+    padding: 100px 0px 100px;
+}
+.top-input .m-lc {
+    height: 49px;
+    width: 100%; 
+    padding: 0 20px;  
+    border: 1px solid #f99a00;
+	margin-bottom: 30px;
+	background: #fff;
+}
+.catagory-name {
+    height: 49px;
+    width: 100%; 
+    padding: 0 20px;  
+    border: 1px solid #f99a00;
+	background: #fff;
+} 
+.top-input {
+    border: 0;
+    border-radius: 0;
+	height: auto;
+}
+.top-submit { 
+    transform: translateX(0px);
+    width: 100%;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.location-icon {
+    position: relative;
+    width: 100%;
+}
+.location-icon i { 
+    top: 32%;
+    transform: translateY(-35%);
+    right: 7px;
+	z-index: 11;
+}
+.something-text {
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-item h4 { 
+    margin-top: 50px;
+}
+#copy-right { 
+    text-align: center !important;
+}
+#copy-right .text-right { 
+    text-align: center !important;
+	margin-top: 20px;
+}
+.dropdown-menu li .dropdown-item {
+	font-size: 15px !important;
+	padding: 0 12px !important;
+}
+.input-bg4 {
+    background: none;
+    padding: unset;
+    border-radius: 0;
+}
+.Marketplace-bg4 { 
+    padding: 100px 0px 100px; 
+}
+.featured-button button {
+    width: 160px;
+    height: 50px; 
+    font-size: 14px;
+    margin: 0 3px; 
+}
+ .about-welcome-img.text-right {
+    margin-top: 41px;
+}
+.serving-quality-video {
+    margin-bottom: 43px;
+}
+.why-choose-us-icon { 
+    left: -6%;
+    top: 50%; 
+}
+
+.Marketplace-bg2 .top-input {
+    background: unset;
+}
+.featured-text {
+    padding: 26px 15px;
+}
+.Sydney-map { 
+    padding: 15px 15px 20px; 
+}
+#map { 
+    height: 377px;
+}
+.Marketplace-bg4 .top-input {
+    background: unset;
+}
+.col-md-4.padding-left-0 {
+    padding: 0;
+}
+.ad-listin-img img { 
+    border-radius: 10px;
+}
+.ad-listin-nav span { 
+    margin-right: 25px; 
+}
+.ad-listin-nav ul li { 
+    padding: 0 3px;
+}
+.ad-listin-nav ul li a { 
+    font-size: 12px;
+}
+
+.ad-details-right {
+    margin-top: 30px;
+}
+.Sydney-map.blog-list-map.ad-listin {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+.faq-nav {
+	margin-bottom:50px !important;
+}
+.socile-btn a { 
+    width: 140px; 
+	padding: 20px 0px;
+}
+.blog-list-text {
+    padding: 40px;
+    margin-left: 0; 
+} 
+.blog-list-img { 
+    margin-bottom: 0;
+}
+.blog-list-item .col-lg-8 {
+	padding:0;
+}
+.blog-grid-btn { 
+    margin-left: 15px;
+}
+.Marketplace-bg2 { 
+    padding: 100px 0px 188px;
+}
+.Marketplace-bg3 .top-input {
+    background: unset;
+}
+.Sydney-map.blog-list-map {
+    padding-left: 0;
+}
+
+}
+
+
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    
+    
+ 
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media (max-width : 479px) { 
+h1 {
+    font-size: 33px;
+}
+h2 {
+    font-size: 25px;
+}    
+.something-img img {
+    width: 100%;
+}
+.something-text h2 br {
+    display: none;
+}  
+.profile-style .owl-dots .owl-dot span { 
+    margin: 0px 1px; 
+}
+#copy-right p {
+    color: #fff;
+    font-size: 13px;
+}
+.furniture-slid .owl-nav [class*=owl-] { 
+    font-size: 15px; 
+    width: 40px;
+    height: 40px; 
+    padding: 11px 0;
+}
+.furniture-slid .owl-prev {
+    left: 0;
+}
+.furniture-slid .owl-next {
+    right: 0;
+}
+.furniture-slid { 
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    padding: 30px 0 20px;
+    margin-top: 0; 
+}
+.Marketplace-bg2 { 
+    padding: 100px 0px 100px;
+}
+.featured-button button {
+    width: auto;
+    height: 38px; 
+    font-size: 13px;
+    margin: 0 0px; 
+    padding: 0 19px;
+} 
+div#topcontrol { 
+    width: 34px;
+    height: 50px; 
+    padding: 13px 0; 
+    right: 0 !important;
+    bottom: 0px !important;
+}
+.featured-button button {
+    width: auto;
+    height: 32px;
+    font-size: 11px;
+    margin: 0 0px;
+    padding: 0 9px;
+}
+img.about-welcome-img2 {
+    margin-right: 0;
+    margin-top: 0;
+}
+.about-welcome-text a {
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 0;
+}
+.why-choose-us-icon {
+    left: -12%;
+    top: 50%;
+}
+.why-choose-us-item {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    padding: 15px 15px 14px 39px;
+    position: relative;
+    margin: 0 16px;
+    margin-right: 0;
+} 
+.featured-next a {
+    height: 42px;
+    width: 42px; 
+    padding: 9px 0; 
+    font-size: 20px; 
+    margin: 0 2px; 
+}
+.featured-next a:nth-last-child(1) {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.ad-listin-nav span {
+    margin-right: 0;
+    padding-bottom: 14px;
+    line-height: 19px;
+}
+.ad-listin-nav ul li a {
+    font-size: 12px;
+    line-height: 26px;
+}
+.ad-details-slide .owl-dots button span {
+    width: 85px;
+    height: 50px; 
+}
+.featured-details .owl-nav [class*=owl-] { 
+    display: none;
+}
+.description { 
+    padding: 15px;
+    margin-top: 48px; 
+}
+.warranty {
+    padding: 0px 12px;
+}
+.ad-listin-warranty span { 
+    font-size: 13px;
+}
+.ad-details-name-text h3 {
+    font-size: 17px; 
+}
+.faq-help h4 { 
+    margin-right: 0px;
+}
+.faq-help a {
+    font-size: 12px; 
+    padding: 5px 15px; 
+    margin: 0 1px;
+}
+.sing-box {
+    background: #fafafa;
+    text-align: center;
+    padding: 25px 10px;
+}
+.erro-text h2 {
+    font-family: 'Stoke', serif;
+    font-size: 131px;
+    font-weight: 400;
+} 
+.Sydney-map span {
+    color: #777777;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500; 
+    line-height: 25px;
+}
+.blog-list-text {
+    padding: 30px;
+    margin-left: 0;
+}
+.blog-details-video {
+    width: 100%; 
+    padding: 100px 0px; 
+}
+.contact-text .address-text p b { 
+    width: 90px; 
+}
+.contact-text .address-text p { 
+    font-size: 13px;
+} 
+
+#Blog-List .Sydney-map.blog-list-map {}
+#Blog-List .Sydney-map.blog-list-map span {
+    width: 100%;
+    position: relative;
+    left: 0;
+    transform: unset;
+}
+#Featured-area .Sydney-map.blog-list-map span {
+    width: 100%;
+    position: relative;
+    left: 0;
+    transform: unset;
+}
+ 
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media (max-width : 414px) { 
+ 
+}
+
+
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 360px) and (max-width: 478px)  {
+.socile-btn a {
+    width: 109px;
+    padding: 15px 0px;
+}
+    
+    
+    
+}
+
+
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width: 478px)  {
+h1 {
+    font-size: 30px;
+}
+.socile-btn a {
+    width: 109px;
+    padding: 15px 0px;
+}
+.sing-box h6 {
+    padding: 25px 0px;
+}
+.forget-aa a {
+    font-size: 12px; 
+}
+.ad-details-slide button.owl-dot { 
+    margin: 20px 4px 0 0;
+}
+
+.ad-res-details {
+	
+}
+.ad-res-details span {
+    width: 100%;
+    display: inline-block;
+    padding: 7px 0;
+}
+.Sydney-map span { 
+    font-size: 12px; 
+} 
+.contact-ad-item b {
+    font-size: 23px; 
+}
+.ad-details-name img { 
+    margin-right: 10px;
+    padding: 4px 0;
+}
+
+}
